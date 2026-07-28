@@ -1,0 +1,72 @@
+SHIVAM KESHARWANI
+MERN Stack Developer | Full Stack Developer
+
+Noida, Sector 62 | +91 9569440319 | kesharwanishivam615@gmail.com
+LinkedIn: https://www.linkedin.com/in/shivam-kesharwani-b62117242/
+GitHub: https://github.com/kesharwani615
+
+PROFESSIONAL SUMMARY
+MERN Stack / Full Stack Developer with 3+ years of experience designing and delivering scalable web applications, enterprise admin panels, and production backend services using React.js, Next.js, Node.js, Express.js, and MongoDB. Skilled in TypeScript, RESTful API development, JWT authentication, RBAC authorization, Prisma ORM, Redis, Socket.io, Tailwind CSS, AWS, and microservices. Proven ability to build SEO-friendly SSR/CSR applications, integrate payment gateways and LLM/AI APIs, and optimize performance for real-time, cloud-deployed products.
+
+TECHNICAL SKILLS
+Programming Languages: JavaScript (ES6+), TypeScript
+Frontend: React.js, ReactJS, Next.js, NextJS, HTML5, CSS3, Tailwind CSS, Responsive Design, SEO, SSR, CSR, SSG
+Backend: Node.js, NodeJS, Express.js, ExpressJS, REST APIs, RESTful API Design, Middleware, Microservices
+Databases: MongoDB, MySQL, PostgreSQL, Redis
+ORM & Queues: Prisma ORM, BullMQ
+State Management: Redux Toolkit, RTK Query, Context API
+Authentication & Security: JWT, Authentication, Authorization, Role-Based Access Control (RBAC)
+Real-time Technologies: Socket.io, Firebase Cloud Messaging, Agora
+Cloud & Deployment: AWS, Vercel, PM2
+Integrations: Stripe, Payment Gateway, OpenAI / LLM APIs, AI Integration, Zoho (Digital Sign & Docs)
+Tools & Practices: Git, Postman, Agile, Scrum, API Integration, Performance Optimization, Code Reviews
+
+PROFESSIONAL EXPERIENCE
+
+MERN Stack Developer | Mobulous Technologies Pvt. Ltd. | Oct 2024 – Present
+- Developed scalable full-stack applications using Next.js, React.js, Node.js, Express.js, and MongoDB for production systems.
+- Designed RESTful APIs, authentication flows, and secure access patterns for enterprise admin panels and client modules.
+- Engineered real-time features to improve engagement, notifications, and live data experiences.
+- Optimized performance through SSR/CSR rendering patterns, API design, and maintainable component architecture.
+- Delivered cloud deployments on AWS and Vercel with PM2 process management and Git-based releases.
+- Collaborated with cross-functional teams, contributed to code reviews, and resolved production defects.
+
+MERN Stack Developer | Arudan Technologies Pvt. Ltd. | Jan 2023 – Oct 2024
+- Built responsive web applications using React.js, Tailwind CSS, and REST APIs for business and customer-facing products.
+- Designed reusable UI components and state-management patterns to improve consistency and development velocity.
+- Integrated RESTful APIs to power dynamic frontend experiences and reliable client–server data exchange.
+- Improved performance and UX through responsive design, optimized rendering, and clean component architecture.
+- Maintained code quality with Git workflows, debugging, and ongoing production bug fixes.
+
+PROJECTS
+
+Kovacs – AI-Powered Fitness Platform
+Tech Stack: Next.js, Node.js, Express.js, Prisma ORM, TypeScript, MongoDB, Stripe, LLM APIs
+- Architected an AI-driven fitness platform that generates hyper-personalized workout regimens and dynamic training plans using LLM intelligence.
+- Developed full-stack features with Next.js and Node.js, modeling application data with Prisma ORM on MongoDB.
+- Integrated Stripe payment gateway to enable secure subscription and checkout flows for fitness services.
+- Implemented TypeScript across the stack to improve type safety and accelerate feature delivery.
+
+iOncology – Digital Healthcare Platform for Cancer Care | https://www.ioncosolutions.com/
+Tech Stack: Next.js, Node.js, TypeScript, MongoDB, RTK Query, Agora, AWS
+- Developed a digital healthcare platform that streamlined doctor appointment scheduling and online patient consultations for cancer care.
+- Built SEO-optimized, responsive Next.js interfaces with SSR/CSR patterns to improve discoverability and load performance.
+- Implemented efficient data synchronization with RTK Query for appointments, consultations, and clinical content modules.
+- Integrated Agora video consultations and deployed production services on AWS.
+
+Worldclass Gourmetfoods – Corporate Website | http://worldclassfoods.in/
+Tech Stack: React.js, TypeScript, Redux, Tailwind CSS
+- Developed a responsive corporate website for an international food distribution company to present brand and product offerings.
+- Implemented scalable UI architecture with React.js and TypeScript for maintainable component-driven development.
+- Designed Redux-based state management for consistent data flow across marketing and content sections.
+- Built a mobile-first interface with Tailwind CSS to improve usability across devices.
+
+ICX – Indian Capital Exchange Platform
+Tech Stack: React.js, TypeScript, RTK Query, Node.js, Microservices, AWS, Agora, Zoho (Digital Sign & Docs Converter)
+- Developed a secure engagement platform connecting companies, investors, brokers, and professionals, including Safe-Vault workflows.
+- Engineered real-time chat and Agora video calling for seamless communication between capital-market stakeholders.
+- Implemented document management with file storage, Zoho digital signature, and document conversion to streamline deal workflows.
+- Built microservices-oriented Node.js backends and React.js frontends with RTK Query; deployed on AWS.
+
+EDUCATION
+Master of Computer Applications (MCA) — Uttaranchal University

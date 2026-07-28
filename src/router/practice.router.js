@@ -1,4 +1,4 @@
-import { FlattenOrderProduct, getAllUniqueTag, getDeliveredOrders, GetUserNeverPlacedOrder, MonthWithHighestOrders, OrderDetailsWithProduct, orderDetailsWithProduct, OrderDetailsWithUserAndProduct, orderWithUser, productCountByCategory, ProductListNeverOrder, reviewDetailsWithUserAndProduct, showReviewAlongWithProduct, topCityByNumberOfUser, topMostExpensiveProduct, totalAvailableStock, totalAvarageAmountByUser, totalOrderByUser, totalQuantitySoldByProduct, totalRevenueAllOrders, totalSpendAmountByUser, user, UserneverPlaceOrder } from "../controller/Practice.controller.js";
+import { FlattenOrderProduct, getAllUniqueTag, getDeliveredOrders, GetUserNeverPlacedOrder, JoinOrderWithUserAndProduct, MonthWithHighestOrders, OrderDetailsWithProduct, orderDetailsWithProduct, OrderDetailsWithUserAndProduct, orderWithUser, productCountByCategory, ProductListNeverOrder, reviewDetailsWithUserAndProduct, showReviewAlongWithProduct, topCityByNumberOfUser, topMostExpensiveProduct, totalAvailableStock, totalAvarageAmountByUser, totalOrderByUser, totalQuantitySoldByProduct, totalRevenueAllOrders, totalSpendAmountByUser, user, UserneverPlaceOrder } from "../controller/Practice.controller.js";
 import { Router } from "express";
 
 const router = Router();
@@ -48,5 +48,7 @@ router.get("/topCityByNumberOfUser", topCityByNumberOfUser);
 router.get("/MonthWithHighestOrders", MonthWithHighestOrders);
 
 router.get("/FlattenOrderProduct", FlattenOrderProduct);
+
+router.get("/JoinOrderWithUserAndProduct", JoinOrderWithUserAndProduct);
 
 export default router;
