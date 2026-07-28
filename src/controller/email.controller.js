@@ -128,3 +128,64 @@ export const sendHrBulkEmail = async (req, res) => {
     });
   }
 };
+
+const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+/**
+ * Send HR application email to a single address from JSON body.
+ * Body: { "email": "hr@company.com", "subject": "optional" }
+ */
+export const sendHrSingleEmail = async (req, res) => {
+  try {
+    const email =
+      typeof req.body.email === "string" ? req.body.email.trim().toLowerCase() : "";
+
+    if (!email || !EMAIL_REGEX.test(email)) {
+      return res.status(400).json({
+        success: false,
+        message: "Please provide a valid email in the body: { \"email\": \"hr@company.com\" }",
+      });
+    }
+
+    const subject =
+      typeof req.body.subject === "string" && req.body.subject.trim()
+        ? req.body.subject.trim()
+        : HR_APPLICATION_SUBJECT;
+
+    await emailQueue.add(
+      "sendHrEmail",
+      {
+        to: email,
+        subject,
+        html: getHrApplicationHtml(),
+        text: getHrApplicationText(),
+        attachments: [
+          {
+            filename: "SHIVAM-MERN_Stack.pdf",
+            path: RESUME_PATH,
+          },
+        ],
+      },
+      {
+        attempts: 3,
+        backoff: {
+          type: "exponential",
+          delay: 5000,
+        },
+      }
+    );
+
+    return res.json({
+      success: true,
+      message: "HR application email queued successfully",
+      email,
+    });
+  } catch (error) {
+    console.log(error);
+
+    return res.status(500).json({
+      success: false,
+      message: error.message,
+    });
+  }
+};

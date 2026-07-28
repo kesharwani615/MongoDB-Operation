@@ -1,10 +1,18 @@
 import express from "express";
-import { sendBulkEmail, sendHrBulkEmail } from "../controller/email.controller.js";
+import {
+  sendBulkEmail,
+  sendHrBulkEmail,
+  sendHrSingleEmail,
+} from "../controller/email.controller.js";
 import { uploadExcel } from "../middleware/upload.js";
 
 const router = express.Router();
 
 router.post("/bulk-email", sendBulkEmail);
+
+// POST /api/v1/email/hr-single
+// JSON body: { "email": "hr@company.com", "subject": "optional" }
+router.post("/hr-single", sendHrSingleEmail);
 
 // POST /api/v1/email/hr-bulk
 // multipart/form-data: file=<excel>, optional subject=<string>
